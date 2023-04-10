@@ -879,7 +879,7 @@ main {
 
 .works__backdrop:hover {
 	opacity: 1;
-	animation: back-anim-1 0.1s steps(1) 1 forwards, back-anim-2 0.1s 0.1s steps(1) 1 forwards, back-anim-3 0.1s 0.2s steps(1) 1 forwards, back-anim-4 0.1s 0.3s steps(1) 1 forwards, back-anim-5 0.1s 0.4s steps(1) 1 forwards;
+	animation: back-anim-1 0s steps(1) 1 forwards, back-anim-2 0.1s steps(1) 1 forwards, back-anim-3 0.1s 0.1s steps(1) 1 forwards, back-anim-4 0.1s 0.2s steps(1) 1 forwards, back-anim-5 0.1s 0.3s steps(1) 1 forwards;
 }
 
 .works__title {
@@ -890,7 +890,7 @@ main {
 }
 
 .works__backdrop:hover .works__title {
-	transition: all 0.3s 0.3s steps(5);
+	transition: all 0.2s 0.2s steps(5);
 	clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
 }
 
