@@ -1,4 +1,4 @@
-const header = document.querySelector('.main-page');
+const header = document.querySelector('.page');
 const headerMenu = document.querySelector('.header');
 const menuButton = document.querySelector('.popup-menu__button');
 const menuLink = document.querySelectorAll('.popup-menu__link');
