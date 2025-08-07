@@ -1101,6 +1101,10 @@ main {
 	border-top: 1px rgba(238, 189, 35, 0.5) solid;
 }
 
+.footer__copy > a {
+	color: #9f9f9f;
+}
+
 .footer__author {
 	color: #fff;
 }
