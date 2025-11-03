@@ -568,6 +568,16 @@ main {
 	}
 }
 
+.sites__item_bottom {
+	width: 100%;
+	max-width: 993px;
+	min-height: auto;
+}
+
+.sites__item_bottom:hover {
+	transform: initial;
+}
+
 .sites__title {
 	color: var(--back-color);
 	font-family: 'Pacifico', sans-serif;
@@ -905,6 +915,7 @@ main {
 }
 
 .works__title {
+	text-align: center;
 	clip-path: polygon(100% 0%, 100% 0%, 100% 100%, 100% 100%);
 	color: #fff;
 	padding: 0.3em;
