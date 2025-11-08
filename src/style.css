@@ -261,7 +261,7 @@ main {
 	min-height: 690px;
 	padding: 0 2vw;
 	background-color: black;
-	background-image: url('back-space.webp');
+	background-image: url('../back-space.webp');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center 0%;
@@ -288,7 +288,7 @@ main {
 	margin: 0 auto;
 	padding: 1em 27px;
 	padding-top: 160px;
-	background-image: url('rocket.svg');
+	background-image: url('../rocket.svg');
 	background-repeat: no-repeat;
 	background-size: 610px;
 	background-size: min(50%, 610px);
@@ -441,19 +441,19 @@ main {
 }
 
 .why__item_clear::before {
-	background-image: url('informative.png');
+	background-image: url('../informative.png');
 }
 
 .why__item_time::before {
-	background-image: url('hot-deal.png');
+	background-image: url('../hot-deal.png');
 }
 
 .why__item_design::before {
-	background-image: url('site-structure.png');
+	background-image: url('../site-structure.png');
 }
 
 .why__item_goals::before {
-	background-image: url('goal.png');
+	background-image: url('../goal.png');
 }
 
 .why__title_accent {
@@ -469,7 +469,7 @@ main {
 .sites {
 	box-sizing: border-box;
 	padding: 40px 2vw;
-	background-image: url('back-waves.svg');
+	background-image: url('../back-waves.svg');
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -762,22 +762,22 @@ main {
 }
 
 .services__item_plan::before {
-	background-image: url('planning.png');
+	background-image: url('../planning.png');
 }
 .services__item_content::before {
-	background-image: url('content.png');
+	background-image: url('../content.png');
 }
 .services__item_design::before {
-	background-image: url('web-design.png');
+	background-image: url('../web-design.png');
 }
 .services__item_dev::before {
-	background-image: url('web-dev.png');
+	background-image: url('../web-dev.png');
 }
 .services__item_launch::before {
-	background-image: url('launcher.png');
+	background-image: url('../launcher.png');
 }
 .services__item_support::before {
-	background-image: url('technical-support.png');
+	background-image: url('../technical-support.png');
 }
 
 .services__item::after {
@@ -946,7 +946,7 @@ main {
 .about-us {
 	box-sizing: border-box;
 	padding: 70px 2vw;
-	background-image: url('back-waves.svg');
+	background-image: url('../back-waves.svg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 50% 100%;
@@ -1106,7 +1106,7 @@ main {
 /* Footer */
 .footer {
 	min-height: 368px;
-	background-image: url('back-space.webp');
+	background-image: url('../back-space.webp');
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
