@@ -1,5 +1,5 @@
 export default {
-  base: './dev/',
+  base: '/dev/',
 	server: {
 		host: '192.168.1.228'
 	}	

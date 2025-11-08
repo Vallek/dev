@@ -7,7 +7,7 @@ import { menuPopup } from './menu-popup.js'
 document.querySelector('#app').innerHTML = /*html*/`
 <header class="header">
 	<a class="avatar" href="https://vallek.github.io/index.html" aria-label="Ссылка на портфолио разработчика" title="Ссылка на портфолио разработчика">
-		<img class="avatar__image" src="/img/ava.jpg" alt="аватарка с фото автора" width="40" height="40">
+		<img class="avatar__image" src="img/ava.jpg" alt="аватарка с фото автора" width="40" height="40">
 	</a>
 	<nav class="header__nav">
 		<ul class="header__menu">
@@ -60,10 +60,10 @@ document.querySelector('#app').innerHTML = /*html*/`
 	</div>
 	<section class="header__social-links">
 		<a class="header__social-link header__social-link_tg" href="https://t.me/webval" title="Связаться через телеграм" aria-label="Связаться через телеграм">
-			<img class="header__social-logo" width="25" height="25" src="/img/tg.svg" alt="">
+			<img class="header__social-logo" width="25" height="25" src="img/tg.svg" alt="">
 		</a>
 		<a class="header__social-link header__social-link_email" href="mailto:vwebdis@gmail.com" title="Связаться по почте" aria-label="Связаться по почте">
-			<img class="header__social-logo" width="25" height="25" src="/img/email.png" alt="">
+			<img class="header__social-logo" width="25" height="25" src="img/email.png" alt="">
 		</a>
 	</section>
 </header>
@@ -195,37 +195,37 @@ document.querySelector('#app').innerHTML = /*html*/`
 				<a class="works__link" href="https://chromchemlab.ru/">
 					<section class="works__item">
 						<div class="works__backdrop"><h3 class="works__title">Онлайн магазин-каталог АкваХром Химия<br></h3></div>
-						<img class="works__img" width="305" height="372" src="https://vallek.github.io//img/works/chromchemlab.webp" alt="Скриншот работы" loading="lazy">
+						<img class="works__img" width="305" height="372" src="https://vallek.github.io/img/works/chromchemlab.webp" alt="Скриншот работы" loading="lazy">
 					</section>
 				</a>
 				<a class="works__link" href="https://machrome.ru/">
 					<section class="works__item">
 						<div class="works__backdrop"><h3 class="works__title">Сайт Машхром<br></h3></div>
-						<img class="works__img" width="305" height="372" src="/img/machrome.jpg" alt="Скриншот работы" loading="lazy">
+						<img class="works__img" width="305" height="372" src="img/machrome.jpg" alt="Скриншот работы" loading="lazy">
 					</section>
 				</a>
 				<a class="works__link" href="https://massspec.ru/">
 					<section class="works__item">
 						<div class="works__backdrop"><h3 class="works__title">Сайт НИЦ АкваХром</h3></div>
-						<img class="works__img" width="305" height="372" src="/img/massspec.webp" alt="Скриншот работы" loading="lazy">
+						<img class="works__img" width="305" height="372" src="img/massspec.webp" alt="Скриншот работы" loading="lazy">
 					</section>
 				</a>
 				<a class="works__link" href="https://vallek.github.io/activica-test/">
 					<section class="works__item">
 						<div class="works__backdrop"><h3 class="works__title">Лэндинг для Activica</h3></div>
-						<img class="works__img" width="305" height="372" src="/img/activica.jpg" alt="Скриншот работы" loading="lazy">
+						<img class="works__img" width="305" height="372" src="img/activica.jpg" alt="Скриншот работы" loading="lazy">
 					</section>
 				</a>
 				<a class="works__link" href="https://vallek.github.io/magwai-test/">
 					<section class="works__item">
 						<div class="works__backdrop"><h3 class="works__title">Сайт для Magwai</h3></div>
-						<img class="works__img" width="305" height="372" src="/img/magwai.jpg" alt="Скриншот работы" loading="lazy">
+						<img class="works__img" width="305" height="372" src="img/magwai.jpg" alt="Скриншот работы" loading="lazy">
 					</section>
 				</a>
 				<a class="works__link" href="https://vallek.github.io/yc-chess-landing/">
 					<section class="works__item">
 						<div class="works__backdrop"><h3 class="works__title">Лэндинг для Яндекс.Крауд</h3></div>
-						<img class="works__img" width="305" height="372" src="/img/yc-chess.jpg" alt="Скриншот работы" loading="lazy">
+						<img class="works__img" width="305" height="372" src="img/yc-chess.jpg" alt="Скриншот работы" loading="lazy">
 					</section>
 				</a>
 			</div>
@@ -241,7 +241,7 @@ document.querySelector('#app').innerHTML = /*html*/`
 				<p>Давайте поработаем вместе над вашим проектом!</p>
 			</div>
 			<div class="about-us__photo">
-				<img width="600" height="300" class="about-us__img" src="/img/dev-ava.jpg" alt="Фото разработчика" loading="lazy">
+				<img width="600" height="300" class="about-us__img" src="img/dev-ava.jpg" alt="Фото разработчика" loading="lazy">
 			</div>
 		</div>
 	</section>
