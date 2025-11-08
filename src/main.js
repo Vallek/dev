@@ -201,31 +201,31 @@ document.querySelector('#app').innerHTML = /*html*/`
 				<a class="works__link" href="https://machrome.ru/">
 					<section class="works__item">
 						<div class="works__backdrop"><h3 class="works__title">Сайт Машхром<br></h3></div>
-						<img class="works__img" width="305" height="372" src="img/machrome.jpg" alt="Скриншот работы" loading="lazy">
+						<img class="works__img" width="305" height="372" src="/img/machrome.jpg" alt="Скриншот работы" loading="lazy">
 					</section>
 				</a>
 				<a class="works__link" href="https://massspec.ru/">
 					<section class="works__item">
 						<div class="works__backdrop"><h3 class="works__title">Сайт НИЦ АкваХром</h3></div>
-						<img class="works__img" width="305" height="372" src="img/massspec.webp" alt="Скриншот работы" loading="lazy">
+						<img class="works__img" width="305" height="372" src="/img/massspec.webp" alt="Скриншот работы" loading="lazy">
 					</section>
 				</a>
 				<a class="works__link" href="https://vallek.github.io/activica-test/">
 					<section class="works__item">
 						<div class="works__backdrop"><h3 class="works__title">Лэндинг для Activica</h3></div>
-						<img class="works__img" width="305" height="372" src="img/activica.jpg" alt="Скриншот работы" loading="lazy">
+						<img class="works__img" width="305" height="372" src="/img/activica.jpg" alt="Скриншот работы" loading="lazy">
 					</section>
 				</a>
 				<a class="works__link" href="https://vallek.github.io/magwai-test/">
 					<section class="works__item">
 						<div class="works__backdrop"><h3 class="works__title">Сайт для Magwai</h3></div>
-						<img class="works__img" width="305" height="372" src="img/magwai.jpg" alt="Скриншот работы" loading="lazy">
+						<img class="works__img" width="305" height="372" src="/img/magwai.jpg" alt="Скриншот работы" loading="lazy">
 					</section>
 				</a>
 				<a class="works__link" href="https://vallek.github.io/yc-chess-landing/">
 					<section class="works__item">
 						<div class="works__backdrop"><h3 class="works__title">Лэндинг для Яндекс.Крауд</h3></div>
-						<img class="works__img" width="305" height="372" src="img/yc-chess.jpg" alt="Скриншот работы" loading="lazy">
+						<img class="works__img" width="305" height="372" src="/img/yc-chess.jpg" alt="Скриншот работы" loading="lazy">
 					</section>
 				</a>
 			</div>
@@ -241,7 +241,7 @@ document.querySelector('#app').innerHTML = /*html*/`
 				<p>Давайте поработаем вместе над вашим проектом!</p>
 			</div>
 			<div class="about-us__photo">
-				<img width="600" height="300" class="about-us__img" src="img/dev-ava.jpg" alt="Фото разработчика" loading="lazy">
+				<img width="600" height="300" class="about-us__img" src="/img/dev-ava.jpg" alt="Фото разработчика" loading="lazy">
 			</div>
 		</div>
 	</section>
