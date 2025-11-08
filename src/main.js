@@ -7,7 +7,7 @@ import { menuPopup } from './menu-popup.js'
 document.querySelector('#app').innerHTML = /*html*/`
 <header class="header">
 	<a class="avatar" href="https://vallek.github.io/index.html" aria-label="Ссылка на портфолио разработчика" title="Ссылка на портфолио разработчика">
-		<img class="avatar__image" src="img/ava.jpg" alt="аватарка с фото автора" width="40" height="40">
+		<img class="avatar__image" src="./img/ava.jpg" alt="аватарка с фото автора" width="40" height="40">
 	</a>
 	<nav class="header__nav">
 		<ul class="header__menu">
@@ -60,10 +60,10 @@ document.querySelector('#app').innerHTML = /*html*/`
 	</div>
 	<section class="header__social-links">
 		<a class="header__social-link header__social-link_tg" href="https://t.me/webval" title="Связаться через телеграм" aria-label="Связаться через телеграм">
-			<img class="header__social-logo" width="25" height="25" src="img/tg.svg" alt="">
+			<img class="header__social-logo" width="25" height="25" src="./img/tg.svg" alt="">
 		</a>
 		<a class="header__social-link header__social-link_email" href="mailto:vwebdis@gmail.com" title="Связаться по почте" aria-label="Связаться по почте">
-			<img class="header__social-logo" width="25" height="25" src="img/email.png" alt="">
+			<img class="header__social-logo" width="25" height="25" src="./img/email.png" alt="">
 		</a>
 	</section>
 </header>
