@@ -5,7 +5,6 @@ const itemLeft = document.querySelector('.sites__item_left');
 const itemRight = document.querySelector('.sites__item_right');
 const elArr = [itemLeft, itemRight];
 
-const windowHeight = window.innerHeight;
 const elementVisible = 250;
 
 elArr.forEach((el) => {

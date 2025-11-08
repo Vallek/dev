@@ -265,10 +265,19 @@ main {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center 0%;
+	transition: background-position 1s ease-out;
 }
 
 .page__intro {
 	margin-bottom: 60px;
+}
+
+.scroll-up {
+  background-position: center 30%;
+}
+
+.scroll-down {
+  background-position: center 0%;
 }
 
 .intro__content {

@@ -1,5 +1,4 @@
 const page = document.querySelector('.page');
-const header = document.querySelector('.header');
 const input = header.querySelector('.popup-menu__input');
 const menuLink = header.querySelectorAll('.popup-menu__link');
 const firstLink = header.querySelector('.header__item:first-child');
