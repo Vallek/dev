@@ -4,6 +4,283 @@ import { backAnim } from './backgr-anim.js'
 import { sectionsAnim } from './sections-anim.js'
 import { menuPopup } from './menu-popup.js'
 
+document.querySelector('#app').innerHTML = /*html*/`
+<header class="header">
+	<a class="avatar" href="https://vallek.github.io/index.html" aria-label="Ссылка на портфолио разработчика" title="Ссылка на портфолио разработчика">
+		<img class="avatar__image" src="img/ava.jpg" alt="аватарка с фото автора" width="40" height="40">
+	</a>
+	<nav class="header__nav">
+		<ul class="header__menu">
+			<li class="header__item visually-hidden">
+				<a class="header__link" href="#">В начало</a>
+			</li>
+			<li class="header__item">
+				<a class="header__link" href="#why">Плюсы</a>
+			</li>
+			<li class="header__item">
+				<a class="header__link" href="#sites">Типы сайтов</a>
+			</li>
+			<li class="header__item">
+				<a class="header__link" href="#services">Услуги</a>
+			</li>
+			<li class="header__item">
+				<a class="header__link" href="#works">Портфолио</a>
+			</li>
+			<li class="header__item">
+				<a class="header__link" href="#about-us">Обо мне</a>
+			</li>
+			<li class="header__item">
+				<a class="header__link" href="#contacts">Контакты</a>
+			</li>
+		</ul>
+	</nav>
+	<div class="header__popup-menu popup-menu">
+		<input class="popup-menu__input" aria-hidden="true" type="checkbox" id="menustate">
+		<nav class="popup-menu__nav">
+			<a class="popup-menu__open" role="button" href="#menustate">
+				<span class="visually-hidden ">Открыть меню</span>
+			</a>
+			<a class="popup-menu__close" role="button" href="#">
+				<span class="visually-hidden ">Закрыть меню</span>
+			</a>
+			<label class="popup-menu__button" for="menustate" aria-hidden="true">
+				<span class="popup-menu__open">≡</span>
+				<span class="popup-menu__close">≡</span>
+			</label>
+			<ul class="popup-menu__list">
+				<li><a class="popup-menu__link" href="#">В начало</a></li>
+				<li><a class="popup-menu__link" href="#why">Плюсы</a></li>
+				<li><a class="popup-menu__link" href="#sites">Типы&nbsp;сайтов</a></li>
+				<li><a class="popup-menu__link" href="#services">Услуги</a></li>
+				<li><a class="popup-menu__link" href="#works">Портфолио</a></li>
+				<li><a class="popup-menu__link" href="#about-us">Обо мне</a></li>
+				<li><a class="popup-menu__link" href="#contacts">Контакты</a></li>
+			</ul>
+		</nav>
+	</div>
+	<section class="header__social-links">
+		<a class="header__social-link header__social-link_tg" href="https://t.me/webval" title="Связаться через телеграм" aria-label="Связаться через телеграм">
+			<img class="header__social-logo" width="25" height="25" src="img/tg.svg" alt="">
+		</a>
+		<a class="header__social-link header__social-link_email" href="mailto:vwebdis@gmail.com" title="Связаться по почте" aria-label="Связаться по почте">
+			<img class="header__social-logo" width="25" height="25" src="img/email.png" alt="">
+		</a>
+	</section>
+</header>
+<main>
+	<section class="intro page__intro">
+		<div class="intro__content">
+			<h1 class="intro__heading">Разработка сайта<br> для <span class="intro__heading_emph">вашего бизнеса</span></h1>
+			<p class="intro__about">Сайт под ключ, который будет решать ваши бизнес задачи. Дизайн, разработка, редакция и продвижение.</p>
+			<a class="intro__email" href="mailto:vwebdis@gmail.com?subject=Заявка&#160;на&#160;разработку&#160;сайта">Связаться</a>
+		</div>
+	</section>
+	<section class="why page__why">
+		<div class="why__content">
+			<div class="why__header">
+				<h2 class="why__heading" id="why">Преимущества</h2>
+				<span class="why__subheading">Вы получаете современный, эффективный сайт,<br> который поможет найти новых клиентов и увеличить продажи</span>
+			</div>
+			<ul class="why__list">
+				<li class="why__item why__item_clear">
+					<h3 class="why__title"><span class="why__title_accent">Понятен</span> аудитории</h3>
+					<p class="why__text">Помогу отредактировать ваш текст в информационном стиле: четко и по делу.</p>
+				</li>
+				<li class="why__item why__item_time">
+					<h3>Не тратит <span class="why__title_accent">время</span></h3>
+					<p class="why__text">Чем быстрее клиент разберется в предложении, тем быстрее сможет перейти к действию.</p>
+				</li>
+				<li class="why__item why__item_design">
+					<h3><span class="why__title_accent">Удобно</span> пользоваться</h3>
+					<p class="why__text">В дизайне нет ничего лишнего.</p>
+					<p class="why__text">Посетителю просто попасть во все разделы сайта.</p>
+				</li>
+				<li class="why__item why__item_goals">
+					<h3>Фокус на <span class="why__title_accent">бизнес целях</span></h3>
+					<p class="why__text">Ясная структура способствует совершению целевых действий.</p>
+				</li>
+			</ul>
+		</div>
+	</section>
+	<section class="sites page__sites">
+		<div class="sites__header">
+			<h2 class="sites__heading" id="sites">Варианты</h2>
+			<span class="sites__subheading">Помогу подобрать тип сайта, подходящий вам</span>
+		</div>
+		<ul class="sites__list">
+			<li class="sites__item sites__item_left slide-slow">
+				<h3 class="sites__title sites__title_shop">Лэндинг</h3>
+				<ul class="sites__features-list">
+					<li class="sites__feature">Посадочная страница для продвижения вашего бизнеса</li>
+					<li class="sites__feature">Продвигает ваш продукт или услугу</li>
+					<li class="sites__feature">Вся важная информация на одной странице</li>
+					<li class="sites__feature">Фото, иллюстрации и другие материалы</li>
+					<li class="sites__feature">Возможность связаться с вами с помощью ссылок на почту, мессенджеры, телефон и соц сети.</li>
+				</ul>
+				<a class="sites__order" href="mailto:vwebdis@gmail.com?subject=Заявка&#160;а&#160;разработку&#160;лэндинга">Заказать</a>
+			</li>
+			<li class="sites__item sites__item_pop">
+				<h3 class="sites__title sites__title_pop">Сайт компании</h3>
+				<span class="sites__status">Популярно</span>
+				<ul class="sites__features-list">
+					<li class="sites__feature sites__feature_pop">Полноценный корпоративный сайт на базе CMS</li>
+					<li class="sites__feature sites__feature_pop">Продвигает всю деятельность вашей компании</li>
+					<li class="sites__feature sites__feature_pop">Отдельные страницы</li>
+					<li class="sites__feature sites__feature_pop">Простой веб-интерфейс для управления сайтом без знаний разработки</li>
+					<li class="sites__feature sites__feature_pop">Возможность заказать обратный звонок или отправить заявку через интерактивную форму</li>
+				</ul>
+				<a class="sites__order sites__order_pop" href="mailto:vwebdis@gmail.com?subject=Заявка&#160;на&#160;разработку&#160;сайта&#160;компании">Заказать</a>
+			</li>
+			<li class="sites__item sites__item_right slide-slow">
+				<h3 class="sites__title">Онлайн магазин</h3>
+				<ul class="sites__features-list">
+					<li class="sites__feature">Онлайн магазин/каталог на базе CMS и WooCommerce</li>
+					<li class="sites__feature">Возможность заказать товар онлайн или отправить запрос</li>
+					<li class="sites__feature">Каталог с фильтрами по рубрикам, брендам и т.п.</li>
+					<li class="sites__feature">Простой веб-интерфейс для управления магазином без знаний разработки</li>
+					<li class="sites__feature">Может включать все возможности Лэндинга и Корпоративного сайта</li>
+				</ul>
+				<a class="sites__order" href="mailto:vwebdis@gmail.com?subject=Заявка&#160;на&#160;разработку&#160;магазина">Заказать</a>
+			</li>
+			<li class="sites__item sites__item_bottom slide-slow">
+				<h3 class="sites__title">Под заказ</h3>
+				<div class="sites__features-list">
+					<p class="sites__text">Если ваши задачи выходят за пределы типовых сайтов, мы составим проект целиком на заказ.</p>
+					<p class="sites__text">Это может включать в себя уникальный дизайн и функциональность.</p>
+				</div>
+				<a class="sites__order" href="mailto:vwebdis@gmail.com?subject=Заявка&#160;на&#160;разработку&#160;сайта">Заказать</a>
+			</li>
+		</ul>
+	</section>
+	<section class="services">
+		<div class="services__header">
+			<h2 class="services__heading" id="services">Этапы работы</h2>
+			<span class="services__subheading">По-настоящему "под ключ"</span>
+			<span class="services__about">Возможен заказ только верстки фронтенда отдельно</span>
+		</div>
+		<ol class="services__list">
+			<li class="services__item services__item_plan">
+				<h3 class="services__title">Планирование работы и расчет стоимости</h3>
+				<p class="services__text">О сроках, объеме и цене договариваемся заранее, чтобы все стороны знали, когда будет готов сайт и сколько он будет стоить. Подписываем договор (есть свой стандартный).</p>
+			</li>
+			<li class="services__item services__item_design">
+				<h3 class="services__title">Дизайн</h3>
+				<p class="services__text">Подбор дизайна, который лучше всего подходит для вашего бизнеса.<br> Тема подпиливается под ваши задачи. Возможно изменение любых деталей оформления, расположения элементов и т.п.</p>
+			</li>
+			<li class="services__item services__item_dev">
+				<h3 class="services__title">Разработка</h3>
+				<p class="services__text">Сайт адаптирован под  устройства и браузеры разных пользователей. Оптимизирован по рекомендациям PageSpeed на скорость, SEO, доступность и другие критерии.</p>
+			</li>
+			<li class="services__item services__item_content">
+				<h3 class="services__title">Наполнение</h3>
+				<p class="services__text">Опциональная совместная работа над содержимым. Вы объясняете как устроен ваш бизнес, кто ваша аудитория, ваши цели.<br> Помощь в подборе изображений, редактировании и оформлении текста.</p>
+			</li>
+			<li class="services__item services__item_launch">
+				<h3 class="services__title">Запуск и продвижение</h3>
+				<p class="services__text">Запуск вашего сайта и базовая настройка SEO для отображения в результатах поиска. Подключение аналитики.</p>
+			</li>
+			<li class="services__item services__item_support">
+				<h3 class="services__title">Поддержка</h3>
+				<p class="services__text">Опциональная поддержка сайта в будущем, в которую могут входить изменения в дизайне, добавление страниц, обновления и решение проблем.</p>
+			</li>
+		</ol>
+	</section>
+	<section class="works page__works">
+		<div class="works__content">
+			<div class="works__header">
+				<h2 class="works__heading" id="works">Портфолио</h2>
+				<span class="works__subheading">Посмотрите мои работы</span>
+			</div>
+			<div class="works__list">
+				<a class="works__link" href="https://chromchemlab.ru/">
+					<section class="works__item">
+						<div class="works__backdrop"><h3 class="works__title">Онлайн магазин-каталог АкваХром Химия<br></h3></div>
+						<img class="works__img" width="305" height="372" src="https://vallek.github.io/img/works/chromchemlab.webp" alt="Скриншот работы" loading="lazy">
+					</section>
+				</a>
+				<a class="works__link" href="https://machrome.ru/">
+					<section class="works__item">
+						<div class="works__backdrop"><h3 class="works__title">Сайт Машхром<br></h3></div>
+						<img class="works__img" width="305" height="372" src="img/machrome.jpg" alt="Скриншот работы" loading="lazy">
+					</section>
+				</a>
+				<a class="works__link" href="https://massspec.ru/">
+					<section class="works__item">
+						<div class="works__backdrop"><h3 class="works__title">Сайт НИЦ АкваХром</h3></div>
+						<img class="works__img" width="305" height="372" src="img/massspec.webp" alt="Скриншот работы" loading="lazy">
+					</section>
+				</a>
+				<a class="works__link" href="https://vallek.github.io/activica-test/">
+					<section class="works__item">
+						<div class="works__backdrop"><h3 class="works__title">Лэндинг для Activica</h3></div>
+						<img class="works__img" width="305" height="372" src="img/activica.jpg" alt="Скриншот работы" loading="lazy">
+					</section>
+				</a>
+				<a class="works__link" href="https://vallek.github.io/magwai-test/">
+					<section class="works__item">
+						<div class="works__backdrop"><h3 class="works__title">Сайт для Magwai</h3></div>
+						<img class="works__img" width="305" height="372" src="img/magwai.jpg" alt="Скриншот работы" loading="lazy">
+					</section>
+				</a>
+				<a class="works__link" href="https://vallek.github.io/yc-chess-landing/">
+					<section class="works__item">
+						<div class="works__backdrop"><h3 class="works__title">Лэндинг для Яндекс.Крауд</h3></div>
+						<img class="works__img" width="305" height="372" src="img/yc-chess.jpg" alt="Скриншот работы" loading="lazy">
+					</section>
+				</a>
+			</div>
+		</div>
+	</section>
+	<section class="about-us">
+		<div class="about-us__content">
+			<div class="about-us__info">
+				<h2 class="about-us__heading" id="about-us">Познакомьтесь с разработчиком</h2>
+				<span class="about-us__subheading">Привет! Меня зовут Валера,<br> я занимаюсь веб-разработкой и образованием.</span>
+				<p>Люблю делать сайты, которыми удобно пользоваться и чтобы ничего не тормозило) Этому я стараюсь учить и студентов на своих курсах.</p>
+				<p>Столько же внимание я уделяю решению задач клиента. Я верю, что качество дизайна и разработки необходимо для успеха бизнес задач.</p>
+				<p>Давайте поработаем вместе над вашим проектом!</p>
+			</div>
+			<div class="about-us__photo">
+				<img width="600" height="300" class="about-us__img" src="img/dev-ava.jpg" alt="Фото разработчика" loading="lazy">
+			</div>
+		</div>
+	</section>
+	<section class="contacts">
+		<div class="contacts__content">
+			<div class="contacts__info">
+				<h2 class="contacts__heading" id="contacts">Контакты</h2>
+				<span class="contacts__subheading">Свяжитесь со мной<br> удобным способом</span>
+			</div>
+			<div class="action header__action">
+				<a class="action-button action-button_email" href="mailto:vwebdis@gmail.com">vwebdis@gmail.com</a>
+				<a class="action-button action-button_tm" href="https://t.me/webval">t.me/webval</a>
+			</div>
+		</div>
+	</section>
+</main>
+<footer class="footer">
+	<div class="footer__content">
+		<section class="footer__copy">			
+			<a href="https://www.flaticon.com/free-icons/information" title="information icons">Information icons created by Freepik - Flaticon</a>
+			<a href="https://www.flaticon.com/free-icons/offer" title="offer icons">Offer icons created by Freepik - Flaticon</a>
+			<a href="https://www.flaticon.com/free-icons/process" title="process icons">Process icons created by Prosymbols - Flaticon</a>
+			<a href="https://www.flaticon.com/free-icons/planning" title="planning icons">Planning icons created by Aficons studio - Flaticon</a>
+			<a href="https://www.flaticon.com/free-icons/gmail" title="gmail icons">Gmail icons created by Freepik - Flaticon</a>
+			<a href="https://www.flaticon.com/free-icons/planning" title="planning icons">Planning icons created by Aficons studio - Flaticon</a>
+			<a href="https://www.flaticon.com/free-icons/digital" title="digital icons">Digital icons created by monkik - Flaticon</a>
+			<a href="https://www.flaticon.com/free-icons/web-design" title="web design icons">Web design icons created by Freepik - Flaticon</a>
+			<a href="https://www.flaticon.com/free-icons/front-end" title="front end icons">Front end icons created by Flat Icons - Flaticon</a>
+			<a href="https://www.flaticon.com/free-icons/deploy" title="deploy icons">Deploy icons created by Vectorslab - Flaticon</a>
+			<a href="https://www.flaticon.com/free-icons/support" title="support icons">Support icons created by Freepik - Flaticon</a>			
+		</section>
+		<section class="footer__copy">
+			<span class="footer__author">© 2023 <a class="footer__name" href="mailto:vwebdis@gmail.com">Валерий Хаслер</a></span>
+			<a class="footer__icons-copy" href="https://www.flaticon.com/free-icons/" title="information icons">Icons from Flaticon</a>
+		</section>
+	</div>
+</footer>
+`
+
 backAnim(document.querySelector('#app'))
 sectionsAnim(document.querySelector('#app'))
 menuPopup(document.querySelector('#app'))
