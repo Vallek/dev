@@ -619,7 +619,7 @@ main {
 
 .sites__features-list {
 	margin: auto 0;
-	list-style-image: url('check.svg');
+	list-style-image: url('../check.svg');
 }
 
 .sites__feature {
