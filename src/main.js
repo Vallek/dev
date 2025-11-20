@@ -194,7 +194,7 @@ document.querySelector('#app').innerHTML = /*html*/`
 			<div class="works__list">
 				<a class="works__link" href="https://chromchemlab.ru/">
 					<section class="works__item">
-						<div class="works__backdrop"><h3 class="works__title">Онлайн магазин-каталог АкваХром Химия<br></h3></div>
+						<div class="works__backdrop"><h3 class="works__title">Онлайн магазин-каталог АкваХром ХромХимЛаб<br></h3></div>
 						<img class="works__img" width="305" height="372" src="https://vallek.github.io/img/works/chromchemlab.webp" alt="Скриншот работы" loading="lazy">
 					</section>
 				</a>
